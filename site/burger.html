@@ -2,17 +2,19 @@
 <html>
 <head>
 	<title>Burger io</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="burger.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
 
- <section id="logo">
-  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo"  width="450">
+ <section id="overlay">
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo"  width="450" id="logo">
+  <hr>
+  <div id="login">
   <h1>Login to Order Fresh Burger</h1>
- </section>
+ </div>
 
-<form action="/example.html" method="post">
+<form action="/burger.html" method="post">
 
   <label for="login">Username:</label>
   <input type="text" name="text field" id="login">
@@ -87,5 +89,7 @@
  <h2>Your order is in Processing please wait for Payment Portal to open</h2>
 	
 </form>
+</section>
+
 </body>
 </html>
