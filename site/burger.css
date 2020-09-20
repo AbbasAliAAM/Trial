@@ -16,7 +16,7 @@ form hr{
  }
 
  #logo {
-  height: 100px;
+  height: 130px;
   display: block;
   margin: auto;
 }
@@ -33,4 +33,7 @@ form {
   line-height: 30px;
   height: 80%;
   overflow: auto;
+}
+#burger{
+max-height: 30%;
 }
