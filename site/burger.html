@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Burger io</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+ <section id="logo">
+  <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo"  width="450">
+  <h1>Login to Order Fresh Burger</h1>
+ </section>
+
+<form action="/example.html" method="post">
+
+  <label for="login">Username:</label>
+  <input type="text" name="text field" id="login">
+
+  <br><br>
+
+  <label for="pswd">Password:</label>
+  <input type="Password" name="text field" id="pswd">
+
+ <h1>Create a Burger!</h1>
+
+  <label for="burger">What type of Burger would you like to have ?</label>
+  <br><br>
+  <input type="text" name="burger" id="burger">
+  <br>
+  <hr>
+
+  <label for="patty">How many patty You would like to have in your Burger ?</label>
+  <br><br>
+  <input type="number" name="patty" id="patty" step="1">
+  
+  <hr>
+  <label for="cooked">How do you want your patty cooked</label>
+  <br>
+  <span>Rare</span>
+  <input type="range" name="cooked" id="cooked" min="0" max="5" step="0.5">
+  <span>Well-Done</span>
+<hr>
+
+<span>What would you like to have on Toppings ?</span>
+<br>
+<input type="checkbox" name="toppings" id="Lettuce">
+<label for="Lettuce">Lettuce</label>
+<input type="checkbox" name="toppings" id="Tomato">
+<label for="Tomato">Tomato</label>
+<input type="checkbox" name="toppings" id="Onion">
+<label for="Onion">Onion</label>
+<hr>
+<span>Would you like to add cheese in your Burger?</span>
+<br>
+
+
+          <input id="yes" name="cheese" type="radio" value="yes">
+          <label for="yes">Yes</label>
+	      
+          <input id="no" name="cheese" type="radio" value="no">
+          <label for="no">No</label>
+<hr>
+<label for="Bun">What type of Bun would you like to have ?</label>
+<select name="Bun" id="Bun">
+	<option value="Sesame">Sesame</option>
+	<option value="Potato">Potato</option>
+	<option value="Garlic">Garlic</option>
+</select>
+
+<hr>
+
+  <label for="sauce">What type of sauce would you like to be added</label>
+  <input list="sauces" name="sauce" id="sauce">
+   <datalist id="sauces">
+	 <option value="ketchup"></option>
+     <option value="mayo"></option>
+     <option value="mustard"></option>
+   </datalist>
+<hr>
+
+<label for="extra">Anything else you want to be add?</label>
+<br>
+<textarea id="extra" rows="5" cols="30">plz write us here</textarea>
+<hr>
+<input type="submit" name="submit" value="SUBMIT">
+ <h2>Your order is in Processing please wait for Payment Portal to open</h2>
+	
+</form>
+</body>
+</html>
